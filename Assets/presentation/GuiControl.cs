@@ -29,7 +29,6 @@ public class GuiControl : MonoBehaviour {
 
     if (options) {
       GUI.Box(new Rect(0, 0, w, h), "");
-      GUILayout.Space = 10;
       GUILayout.BeginVertical();
       GUILayout.BeginArea(new Rect(w / 4, h / 4, w / 2, h - h / 4));
 
